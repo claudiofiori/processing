@@ -13,31 +13,30 @@
             // Write your project here
             
             void setup(){
-            size(300,300);
-            background(50,170,50);
-            translate(90,90);
-            fill(255,255,0,255);
-            scale(0.5);e
-            ellipse(100,100,120,120);
-            }
-            
-            void draw(){
-            
-            pushMatrix();
-            translate(140,140);
-            fill(0,255,0,255);
-            rotate(radians(frameCount*4%360));
-            fill(255,0,0,255);
-            rect(30,0,60,10);
-            popMatrix();
-            pushMatrix();
-            translate(140,140);
-            fill(0,0,255,255);
-            rotate(radians(frameCount*4%360 ));
-            rect(80, 0,30,30);
-            popMatrix();
-            
-            }
+ size(300,300);
+ background(50,170,50);
+ translate(90,90);
+ fill(255,255,0,255);
+ scale(0.5);
+ ellipse(100,100,120,120);
+}
+ void draw(){
+ 
+  pushMatrix();
+ translate(140,140);
+ fill(0,255,0,255);
+ rotate(radians(frameCount*4%360));
+ fill(255,0,0,255);
+ rect(30,0,60,10);
+ popMatrix();
+ pushMatrix();
+ translate(140,140);
+ fill(0,0,255,255);
+ rotate(radians(frameCount*4%360 ));
+ rect(80, 0,30,30);
+ popMatrix();
+ 
+ }
             
         </script>
         <canvas></canvas>
